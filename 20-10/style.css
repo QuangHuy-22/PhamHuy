@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.width-content{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    
+}
+.header {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.header .width-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo img{
+    height: 80px;
+}
+.header__navigation{
+    display: flex;
+}
+.header__navigation .navigation__item{
+    position: relative;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+.header__navigation .navigation__item:hover {
+box-shadow: 0 -4px 0 0 red inset;
+}
+.header__navigation .navigation__item:hover .menu{
+    display: block;
+}
+
+.menu{
+    position: absolute  ;
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.menu__item{
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 48px;
+    white-space: nowrap;
+}
+.menu__item:hover{
+    background-color: red;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.home__main{
+    margin: auto;
+}
+.home__banner img{
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+}
+.menu__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.item__banner {
+    padding: 0 50px;
+    background-color: #ffffff;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+.menu__content .item__banner:hover{
+    box-shadow: 0 -4px 0 0 red inset
+    
+    height: 50px;
+    width: 100%;
+}
+.footer__menu{
+    background-color:rgba(27, 23, 23, 0.863);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+}
+.footer__item{
+    display: flex;
+    flex-direction: column;
+}

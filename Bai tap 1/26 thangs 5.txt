@@ -1,0 +1,12 @@
+﻿K/n về biến:
+_var cách khai báo biến cũ 
+_let khai báo biến có thể thay đổi
+_const khai báo hằng số.
++Định danh 
+	_tên của biến hoặc hằng số hoặc hằng số được định danh
++Quy tắc đặt tên biến
+	_Tên biến phải bắt đầu bằng chữ,dấu($) hặc dấu(_)
+	_ Tên biến có chứa số, chữ cái, dấu ($) và dáu (_)
+	_
+*Phân biệt Primittive và Object
+Có 6 loại primitive

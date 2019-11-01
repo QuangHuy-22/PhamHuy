@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+cf:before
+cf:after {
+    content: " ";
+    display: table;
+}
+header{
+    z-index: -1;
+}
+body{
+    color: blue
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+
+}
+article{
+    border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+footer{
+    boder: 10px solid transparent;
+    padding: 15px;
+    border-image: url(boder.png) 30 round;
+}
